@@ -71,5 +71,5 @@ class CinemaHouse{
    };
     
 }
-//getTheMovies();
+
 
