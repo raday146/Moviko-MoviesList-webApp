@@ -34,7 +34,7 @@ class CinemaHouse{
     const repo = await fetch(all);
     let response = await repo.json();
     let movies = Array.from(response.results);
-    const total_pages = Number(response.total_pages)/(Number(response.total_pages)/2)+1; 
+    const total_pages = Number(response.total_pages)/(Number(response.total_pages)/2)+1; // <-
     let current_page = Number(response.page); 
     if(total_pages && total_pages > current_page){
         while (total_pages > current_page){
