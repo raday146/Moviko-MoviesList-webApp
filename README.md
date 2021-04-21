@@ -1,6 +1,6 @@
 # .Moviko-MoviesList-webApp
  
-##Introduction  :rocket::rocket:
+## Introduction  :rocket::rocket:
    A web app that contains a variety of summaries of a variety of movies as cards.
    The same films will be shown with ratings and year details, which will make it easier for the user to understand which film he would like to see in the cinema even before (according to the parameters presented) as suitable for him.
    The app will allow a number of movie filtering options, including movie search.
